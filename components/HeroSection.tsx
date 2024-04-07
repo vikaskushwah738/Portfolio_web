@@ -1,13 +1,15 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import { TypeAnimation } from 'react-type-animation';
+import TextAnimation from './TeaxtAnimation'
 
 const HeroSection = () => {
 
     return (
         <section>
+             
             <div className='grid grid-cols-1 lg:grid-cols-12'>
+          
                 <div className='col-span-7 place-self-center text-center
                 sm:text-left'>
                     <h1 className='text-white mb-4 text-4xl lg:text-6xl
@@ -15,21 +17,7 @@ const HeroSection = () => {
                         <span className='text-transparent bg-clip-text bg-gradient-to-r
                      from-purple-400 to-pink-600 font-medium'> Hello I'm {" "}</span>
                      <br />
-                        <TypeAnimation
-                            sequence={[
-                                'Vikas Kushwah',
-                                1000, 
-                                'Web Devloper',
-                                1000,
-                                'Vikas Kushwah',
-                                1000,
-                                'Web Devloper',
-                                1000
-                            ]}
-                            wrapper="span"
-                            speed={50}
-                            repeat={Infinity}
-                        />
+                        <TextAnimation/>
                     </h1>
                     <p className='mb-6 text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam minus laborum placeat enim, sunt dolore beatae repellat quae. Non, accusantium voluptatem? Iste cumque provident, distinctio nam eius reiciendis consectetur.

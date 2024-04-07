@@ -7,8 +7,8 @@ import TabButton from './TabButton';
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending ,startTrasition] = useTransition();
-  const handleTabChange = (id:any) => {
-    console.log("Selected tab:", id);
+  const handleTabChange = (id: string) => {
+    
      startTrasition(() => {
       setTab(id);
     });
@@ -36,7 +36,6 @@ const AboutSection = () => {
           </div>
           <div className="mt-8">
           {selectedTab && selectedTab.content }
-          console.log("Selected tab content:", selectedTab);
           </div>
         </div>
       </div>
