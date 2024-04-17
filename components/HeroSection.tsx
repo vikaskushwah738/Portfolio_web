@@ -17,8 +17,12 @@ const HeroSection = () => {
                             <br />
                             <TextAnimation />
                         </h1>
-                        <p className='mt-6 mb-8 text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam minus laborum placeat enim, sunt dolore beatae repellat quae. Non, accusantium voluptatem? Iste cumque provident, distinctio nam eius reiciendis consectetur.
+                        <p className='mt-6 text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
+                        Explore a World of Possibilities Through Vikas Kushwah's Portfolio.
+                        </p>
+                        <p className='mt-2 mb-8 text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
+                        Welcome to my portfolio! Here, I invite you to explore a glimpse of my creative journey. As a passionate web developer,
+                        Each project reflects my dedication to excellence. Join me on a visual journey, where every pixel tells a story of inspiration and creativity.
                         </p>
                         <div className='space-x-4'>
                             <button className='px-6 py-3  rounded-xl bg-white text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 via-red-500 hover:bg-slate-800'>
@@ -37,6 +41,7 @@ const HeroSection = () => {
                                 layout='fill'
                                 objectFit='cover'
                                 className='rounded-full'
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             />
                         </div>
                     </div>
