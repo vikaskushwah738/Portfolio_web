@@ -6,7 +6,7 @@ interface EmailTemplateProps {
 export const EmailTemplate = ({ firstName }: EmailTemplateProps) => {
     return (
         <section className='grid md:grid-cols-2 my-12 py-24 gap-4'>
-            <div>
+            <div> 
                 <h1 className='text-xl font-bold text-white my-2'>Welcome, {firstName}!</h1>
                 <p className='text-[#ADB7BE] mb-4 max-w-md'>
                     I'm currently looking for new opportuities, my in box always open.

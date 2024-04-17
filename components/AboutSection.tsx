@@ -24,8 +24,8 @@ const AboutSection = () => {
           <h2 className='text-3xl font-bold mb-4'>About Me</h2>
           <p className="text-base md:text-lg">
           Welcome to my corner of the digital world! I'm Vikas Kushwah, a web developer with a 
-          passion for creativity and innovation. With I've honed my skills in React, Nextjs, HTML, CSS, Javasript
-          .Whether it's designing captivating interfaces, crafting compelling content, or delving into
+          passion for creativity and innovation. With I've honed my skills in React, Nextjs, HTML, CSS, Javasript.
+          Whether it's designing captivating interfaces, crafting compelling content, or delving into
           the intricacies of  web developer, I thrive on pushing boundaries and delivering excellence.
            Beyond work, Let's connect and explore the possibilities together!
           </p>
