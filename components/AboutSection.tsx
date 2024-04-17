@@ -23,11 +23,11 @@ const AboutSection = () => {
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-3xl font-bold mb-4'>About Me</h2>
           <p className="text-base md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, architecto consequuntur esse, alias illo
-            harum autem est eaque vero voluptatibus cupiditate quia laudantium ducimus blanditiis? Fugit, magni quae
-            dolores quo suscipit voluptas earum id quaerat dicta, quidem doloribus quisquam natus distinctio vero. Vel
-            quis nam autem voluptas ducimus vel quia nesciunt corporis soluta,
-            eius, inventore praesentium similique? Voluptatem quas maxime modi incidunt voluptates voluptatum ipsam officia
+          Welcome to my corner of the digital world! I'm Vikas Kushwah, a web developer with a 
+          passion for creativity and innovation. With I've honed my skills in React, Nextjs, HTML, CSS, Javasript
+          .Whether it's designing captivating interfaces, crafting compelling content, or delving into
+          the intricacies of  web developer, I thrive on pushing boundaries and delivering excellence.
+           Beyond work, Let's connect and explore the possibilities together!
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
