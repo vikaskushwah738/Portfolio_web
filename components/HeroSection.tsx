@@ -2,9 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import TextAnimation from './TeaxtAnimation'
-
 const HeroSection = () => {
-
     return (
         <section className='py-16'>
             <div className='container mx-auto px-4 lg:px-0'>

@@ -1,18 +1,19 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
-import { EmailTemplate } from '@/components/email-template';
+import { EmailTemplate } from '@/components/EmailTemplate';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+const  Emailfrom=process.env.FROM_EMAIL
+export async function POST() {
+  try {
+    const data = await resend.emails.send({
+      from:Emailfrom,
+      to: ['delivered@resend.dev'],
+      subject: 'Hello world',
+      react: EmailTemplate({ firstName: 'John' }),
+    });
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
-  const { data, error } = await resend.emails.send({
-    from: 'Judy <vikaskushwah738@gmail.com>',
-    to: ['vikaskushwah2580@gmail.com'],
-    subject: 'Hello world',
-    react: EmailTemplate({ firstName: 'John' }),
-  });
-  if (error) {
-    return res.status(400).json(error);
+    return Response.json(data);
+  } catch (error) {
+    return Response.json({ error });
   }
-  res.status(200).json(data);
-};
+}
