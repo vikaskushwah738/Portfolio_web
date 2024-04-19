@@ -10,17 +10,17 @@ const HeroSection = () => {
                     <div className='col-span-7 flex flex-col justify-center'>
                         <h1 className='text-white text-4xl lg:text-6xl sm:text-5xl font-extralight'>
                             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-600 font-medium'>
-                                Hello I'm {" "}
+                                Hello I&apos;m {" "}
                             </span>
                             <br />
                             <TextAnimation />
                         </h1>
                         <p className='mt-6 text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
-                        Explore a World of Possibilities Through Vikas Kushwah's Portfolio.
+                            Explore a World of Possibilities Through Vikas Kushwah&apos;s Portfolio.
                         </p>
                         <p className='mt-2 mb-8 text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
-                        Welcome to my portfolio! Here, I invite you to explore a glimpse of my creative journey. As a passionate web developer,
-                        Each project reflects my dedication to excellence. Join me on a visual journey, where every pixel tells a story of inspiration and creativity.
+                            Welcome to my portfolio! Here, I invite you to explore a glimpse of my creative journey. As a passionate web developer,
+                            Each project reflects my dedication to excellence. Join me on a visual journey, where every pixel tells a story of inspiration and creativity.
                         </p>
                         <div className='space-x-4'>
                             <button className='px-6 py-3  rounded-xl bg-white text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 via-red-500 hover:bg-slate-800'>
@@ -36,10 +36,11 @@ const HeroSection = () => {
                             <Image
                                 src='/me.png'
                                 alt='developer images'
-                                layout='fill'
+                                layout='responsive'
                                 objectFit='cover'
                                 className='rounded-full'
-                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                width={50}
+                                height={50}
                             />
                         </div>
                     </div>

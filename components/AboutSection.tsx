@@ -3,12 +3,10 @@ import Image from 'next/image';
 import TAB_DATA from "@/data/data.js"
 import React, { useState, useTransition } from 'react';
 import TabButton from './TabButton';
-
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, startTrasition] = useTransition();
   const handleTabChange = (id: string) => {
-
     startTrasition(() => {
       setTab(id);
     });
