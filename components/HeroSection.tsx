@@ -26,7 +26,7 @@ const HeroSection = () => {
                             <button className='px-6 py-3  rounded-xl bg-white text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 via-red-500 hover:bg-slate-800'>
                                 Hire me
                             </button>
-                            <button className='px-1 py-1 rounded-xl mt-3  bg-transparent hover:text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 to-red-500'>
+                            <button className='px-1 py-1 rounded-xl md:mt-3  bg-transparent hover:text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 to-red-500'>
                                 <span className='block bg-black hover:bg-slate-800 rounded-xl px-5 py-2 text-white'>Download CV</span>
                             </button>
                         </div>
