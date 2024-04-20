@@ -32,7 +32,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                     <div className='col-span-5 flex justify-center items-center'>
-                        <div className='relative rounded-full shadow-lg shadow-red-500/50 bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]'>
+                        <div className='relative flex justify-center items-center rounded-full shadow-lg shadow-red-500/50 bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]'>
                             <Image
                                 src='/me.png'
                                 alt='developer images'
