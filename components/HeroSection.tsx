@@ -22,13 +22,13 @@ const HeroSection = () => {
                             Welcome to my portfolio! Here, I invite you to explore a glimpse of my creative journey. As a passionate web developer,
                             Each project reflects my dedication to excellence. Join me on a visual journey, where every pixel tells a story of inspiration and creativity.
                         </p>
-                        <div className='space-x-4'>
-                            <button className='md:px-6 py-3  rounded-xl bg-white text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 via-red-500 hover:bg-slate-800'>
+                        <div className='md:space-x-4 '>
+                            <button className='px-6 py-3 rounded-xl bg-white text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 via-red-500 hover:bg-slate-800'>
                                 Hire me
                             </button>
-                            <button className='md:px-1 py-1 rounded-xl mt-3  bg-transparent hover:text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 to-red-500'>
+                            <button className='px-1 py-1 rounded-xl mt-3  bg-transparent hover:text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 to-red-500'>
                                 <span className='block bg-black hover:bg-slate-800 rounded-xl px-5 py-2 text-white'>Download CV</span>
-                            </button>
+                            </button> 
                         </div>
                     </div>
                     <div className='col-span-5 flex justify-center items-center'>
