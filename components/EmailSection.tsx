@@ -29,7 +29,7 @@ export const EmailSection = () => {
                             id='email'
                             required
                             placeholder='jdjbdjb@gmail.com'
-                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 md:w-3/4  '
+                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 w-full md:w-3/4  '
                         />
                     </div>
                     <div className='mb-6'>
@@ -43,7 +43,7 @@ export const EmailSection = () => {
                             id='subject'
                             required
                             placeholder='Just say hi'
-                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 md:w-3/4  '
+                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 w-full md:w-3/4  '
                         />
                     </div>
                     <div>
@@ -56,7 +56,7 @@ export const EmailSection = () => {
                             id='message'
                             required
                             placeholder='Message'
-                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 md:w-3/4  '
+                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 w-full md:w-3/4  '
                         />
                     </div>
                     <button
