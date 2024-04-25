@@ -1,4 +1,4 @@
-import  { ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 interface tabBut{
     active:boolean,
@@ -7,7 +7,7 @@ interface tabBut{
 }
 const TabButton = ({active, selectTab, children}:tabBut) => {
   
-  const buttonClasses= active 
+const buttonClasses= active 
   ? "text-white border-b border-purple-500" 
   : "text-[#ADB7BE]" 
   
