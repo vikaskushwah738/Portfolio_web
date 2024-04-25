@@ -13,23 +13,23 @@
     },
     {
         title: "Education",
-        id: "Education",
+        id: "education",
         content:  (
           <ul className="list-disc pl-2">
-            <li>Node.js</li>
+            <li>pop</li>
             <li>Express</li>
-            <li>Javascript</li>
+            <li>Jahhihduscript</li>
             <li>React</li>
           </ul>
         )
       },
       {
         title: "Cert",
-        id: "Cert",
+        id: "cert",
         content: (
           <ul className="list-disc pl-2">
-            <li>Node.js</li>
-            <li>Express</li>
+            <li>bob</li>
+            <li>oooo</li>
             <li>Javascript</li>
             <li>React</li>
           </ul>

@@ -30,7 +30,7 @@ const AboutSection = () => {
           <div className='flex flex-row mt-8'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
             <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
-            <TabButton selectTab={() => handleTabChange("certification")} active={tab === "certification"}>Certification</TabButton>
+            <TabButton selectTab={() => handleTabChange("cert")} active={tab === "cert"}>Certification</TabButton>
           </div>
           <div className="mt-8">
             {selectedTab && selectedTab.content}

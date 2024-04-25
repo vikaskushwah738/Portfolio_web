@@ -1,9 +1,9 @@
-import React from 'react'
+import  { ReactNode } from 'react'
 
 interface tabBut{
     active:boolean,
     selectTab:( ) => void,
-    children:React.ReactNode;
+    children:ReactNode;
 }
 const TabButton = ({active, selectTab, children}:tabBut) => {
   
