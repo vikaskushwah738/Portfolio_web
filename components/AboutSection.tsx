@@ -13,12 +13,12 @@ const AboutSection = () => {
   };
   const selectedTab = TAB_DATA.find((t) => t.id === tab);
   return (
-    <section className='text-white'>
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-4 xl:gap-16 sm:py-16">
-        <div>
+    <section className='text-white lg:px-16 md:px-8 px-5'>
+      <div className=" lg:flex gap-8 items-center py-4 xl:gap-16 sm:py-16">
+        <div className='lg:w-1/2 flex justify-center items-center'>
           <Image src='/Designer.png' alt='about' width={500} height={500} />
         </div>
-        <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
+        <div className='lg:w-1/2 mt-4 md:mt-0 text-left flex flex-col h-full lg:pt-0 md:pt-8 pt-5 '>
           <h2 className='text-3xl font-bold mb-4'>About Me</h2>
           <p className="text-base md:text-lg">
             Welcome to my corner of the digital world! I am Vikas Kushwah, a web developer with a

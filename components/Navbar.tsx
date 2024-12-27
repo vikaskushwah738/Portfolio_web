@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className='flex flex-wrap w-full items-center
       justify-between mx-auto h-14 md:px-12 px-5 cursor-pointer'>
                 <Link href={"/"}
-                    className='text-lg md:text-3xl text-white font-semibold '>
+                    className='text-lg md:text-xl text-white font-semibold '>
                     <i>Vikas</i> 
                 </Link>
                 <div className="menu hidden md:w-auto md:block ">

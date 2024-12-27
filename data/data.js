@@ -43,7 +43,13 @@
     {
       id: 1,
       title: "Eclat Engineering Consultants",
-      img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735284257/Screenshot_2024-12-27_125204_r8gvzz.png",
+      img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735289291/Untitled_design_bzd26q.png",
+      
+    },
+    {
+      id: 1,
+      title: "Eclat Engineering Consultants",
+      img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735289291/Untitled_design_bzd26q.png",
       
     },
    

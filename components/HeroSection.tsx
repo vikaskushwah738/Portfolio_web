@@ -4,7 +4,7 @@ import React from 'react'
 import TextAnimation from './TeaxtAnimation'
 const HeroSection = () => {
     return (
-        <section className='py-16'>
+        <section className='py-16 lg:px-16 md:px-8 px-5'>
             <div className='container mx-auto px-4 lg:px-0'>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
                     <div className='col-span-7 flex flex-col justify-center'>
