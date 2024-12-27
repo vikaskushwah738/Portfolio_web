@@ -3,12 +3,12 @@ import { FiEye } from "react-icons/fi";
 import { FaCode } from "react-icons/fa";
 import Link from 'next/link';
 interface projectCard {
-  // title: string,
-  description: string,
+  title: string,
+  // description: string,
   img: string,
   
 }
-const ProjectCard = ({ description, img, }: projectCard) => {
+const ProjectCard = ({ img, title }: projectCard) => {
   return (
     <>
       <div className='w-[250px] border-2 relative border-purple-500 rounded-xl group bg-[#181818] '>
@@ -24,8 +24,8 @@ const ProjectCard = ({ description, img, }: projectCard) => {
            </div>
         </div>
         <div className='text-white px-5'>
-        {/* <p className='text-2xl pt-5 text-center'>{title}</p> */}
-        <p className='text-lg pt-3 pb-5'>{description}</p>
+         <p className='text-2xl pt-5 text-center'>{title}</p> 
+        {/* <p className='text-lg pt-3 pb-5'>{description}</p> */}
         </div>
       </div>
     </>
