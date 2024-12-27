@@ -13,7 +13,7 @@ const AboutSection = () => {
   };
   const selectedTab = TAB_DATA.find((t) => t.id === tab);
   return (
-    <section className='text-white lg:px-16 md:px-8 px-5'>
+    <section className='text-white lg:px-16 md:px-8 px-5' id='about'>
       <div className=" lg:flex gap-8 items-center py-4 xl:gap-16 sm:py-16">
         <div className='lg:w-1/2 flex justify-center items-center'>
           <Image src='/Designer.png' alt='about' width={500} height={500} />

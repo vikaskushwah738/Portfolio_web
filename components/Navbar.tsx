@@ -13,15 +13,15 @@ const navLinks = [
     },
     {
         title: "About",
-        link: "/about"
+        link: "#about"
     },
     {
         title: "Contact",
-        link: "/contact"
+        link: "#contact"
     },
     {
         title: "Project",
-        link: "/project"
+        link: "#project"
     }
 ]
 const Navbar = () => {

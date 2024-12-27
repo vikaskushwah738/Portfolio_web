@@ -7,11 +7,11 @@ interface navBar{
 const NavLink = ({link , title}: navBar) => {
   return (
     <>
-    <Link
+    <a
     href={link}
     className="block py-2 pl-3 pr-4 text-white text-lg"> 
     {title} 
-    </Link>
+    </a>
     </>
   )
 }
