@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
 import NavLink from './NavLink';
-import { IoMdMenu } from "react-icons/io";
-import { RxCross2 } from "react-icons/rx";
+import { IoMdCloseCircleOutline, IoMdMenu } from "react-icons/io";
 import MenuNavbar from './MenuNavbar';
 
 const navLinks = [
@@ -25,38 +24,36 @@ const navLinks = [
     }
 ]
 const Navbar = () => {
-    const [isOpen, setOpen]=useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleNavbar = () => {
+        setIsOpen(!isOpen);
+    };
     return (
         <nav className='bg-[#121212] bg-opacity-100 fixed top-0 right-0 left-0 z-10'>
             <div className='flex flex-wrap w-full items-center
       justify-between mx-auto h-14 md:px-12 px-5 cursor-pointer'>
                 <Link href={"/"}
                     className='text-lg md:text-xl text-white font-semibold '>
-                    <i>Vikas</i> 
+                    <i>Vikas</i>
                 </Link>
                 <div className="menu hidden md:w-auto md:block ">
                     <ul className='space-x-5 md:flex-row md:flex cursor-pointer'>
-                    {navLinks.map((link, index) => (
-                        <li key={index}>
-                            <NavLink  {...link} />
-                        </li>
-                         
+                        {navLinks.map((link, index) => (
+                            <li key={index}>
+                                <NavLink  {...link} />
+                            </li>
+
                         ))}
                     </ul>
                 </div>
                 <div className='text-white text-3xl block md:hidden'>
-                  {
-                    !isOpen ? (
-                        <button
-                        onClick={() => setOpen(true)}><IoMdMenu /></button>
-                    ) : (
-                        <button
-                        onClick={() => setOpen(false)}>< RxCross2 /> </button>
-                    )
-                  }                    
+                    <button onClick={toggleNavbar}>
+                        <span className="sr-only">{isOpen ? 'Close navigation' : 'Open navigation'}</span>
+                        {isOpen ? <IoMdCloseCircleOutline /> : <IoMdMenu />}
+                    </button>
                 </div>
             </div>
-            {isOpen ? <MenuNavbar links={navLinks}/> : null} 
+            {isOpen ? <MenuNavbar links={navLinks} onClick={toggleNavbar} /> : null}
         </nav>
     )
 }
