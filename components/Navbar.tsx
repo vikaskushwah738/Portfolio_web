@@ -29,8 +29,8 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <nav className='bg-[#121212] bg-opacity-100 fixed top-0 right-0 left-0 z-10'>
-            <div className='flex flex-wrap w-full items-center
+        <nav className='bg-opacity-100 fixed top-0 right-0 left-0 z-10'>
+            <div className='flex flex-wrap w-full items-center bg-[#121212]
       justify-between mx-auto h-14 md:px-12 px-5 cursor-pointer'>
                 <Link href={"/"}
                     className='text-lg md:text-xl text-white font-semibold '>
