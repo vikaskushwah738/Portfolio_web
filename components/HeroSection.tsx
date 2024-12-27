@@ -22,7 +22,7 @@ const HeroSection = () => {
                             Welcome to my portfolio! Here, I invite you to explore a glimpse of my creative journey. As a passionate web developer,
                             Each project reflects my dedication to excellence. Join me on a visual journey, where every pixel tells a story of inspiration and creativity.
                         </p>
-                        <div className='md:space-x-4 '>
+                        <div className='md:space-x-4 sm:space-x-3'>
                             <button className='px-6 py-3 rounded-xl bg-white text-black sm:w-auto w-full bg-gradient-to-br from-blue-500 via-red-500 hover:bg-slate-800'>
                                 Hire me
                             </button>
