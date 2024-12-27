@@ -27,12 +27,12 @@ const AboutSection = () => {
             the intricacies of  web developer, I thrive on pushing boundaries and delivering excellence.
             Beyond work, Let&apos;s connect and explore the possibilities together!
           </p>
-          <div className='flex flex-row mt-8'>
+          <div className='flex flex-row mt-4'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
             <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
             <TabButton selectTab={() => handleTabChange("cert")} active={tab === "cert"}>Certification</TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-4">
             {selectedTab && selectedTab.content}
           </div>
         </div>
