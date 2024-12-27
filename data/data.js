@@ -4,11 +4,13 @@
       id: "skills",
       content:  (
         <ul className="list-disc pl-2">
+          <li>Javascript</li>
           <li>Node.js</li>
           <li>Next.js</li>
-          <li>Javascript</li>
+          <li>Tailwin CSS</li>
           <li>Mongodb</li>
           <li>Prisma</li>
+          <li>Git</li>
           <li>TypeScript</li>
           <li>Rest API</li>
         </ul>
