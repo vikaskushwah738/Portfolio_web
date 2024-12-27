@@ -9,6 +9,8 @@
           <li>Javascript</li>
           <li>Mongodb</li>
           <li>Prisma</li>
+          <li>TypeScript</li>
+          <li>Rest API</li>
         </ul>
       ),
     },
