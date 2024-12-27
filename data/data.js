@@ -5,9 +5,10 @@
       content:  (
         <ul className="list-disc pl-2">
           <li>Node.js</li>
-          <li>Express</li>
+          <li>Next.js</li>
           <li>Javascript</li>
-          <li>React</li>
+          <li>Mongodb</li>
+          <li>Prisma</li>
         </ul>
       ),
     },
@@ -16,10 +17,7 @@
         id: "education",
         content:  (
           <ul className="list-disc pl-2">
-            <li>pop</li>
-            <li>Express</li>
-            <li>Jahhihduscript</li>
-            <li>React</li>
+            <li>St. Mary's Groups of institution Hyderabad</li>
           </ul>
         )
       },
@@ -28,10 +26,8 @@
         id: "cert",
         content: (
           <ul className="list-disc pl-2">
-            <li>bob</li>
-            <li>oooo</li>
-            <li>Javascript</li>
-            <li>React</li>
+            <li>Responsive Web Design - freecodecamp</li>
+            
           </ul>
         ),
       },
