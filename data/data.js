@@ -44,13 +44,13 @@
       id: 1,
       title: "Eclat Engineering Consultants",
       img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735289291/Untitled_design_bzd26q.png",
-      
+      link:'https://www.eclatengineering.com/'
     },
     {
       id: 1,
-      title: "Eclat Engineering Consultants",
-      img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735289291/Untitled_design_bzd26q.png",
-      
+      title:"So Effots Solution",
+      img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735290531/Untitled_design_2_rjmigk.png",
+      link:'https://www.soefforts.com/'
     },
    
   ];
