@@ -57,7 +57,7 @@ export const PROJECT_DATA = [
     id: 3,
     title: "So Efforts Solution",
     img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735290531/Untitled_design_2_rjmigk.png",
-    link: 'https://www.'
+    link: 'https://www.soefforts.com'
   },
 
 ];
