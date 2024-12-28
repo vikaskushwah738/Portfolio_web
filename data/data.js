@@ -47,10 +47,16 @@
       link:'https://www.eclatengineering.com/'
     },
     {
-      id: 1,
-      title:"So Effots Solution",
+      id: 2,
+      title: "Sommet Infra Projects PVT LID",
+      img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735358615/sommet-infra_mkuhdd.png",
+      link:'https://www.eclatengineering.com/'
+    },
+    {
+      id: 3,
+      title:"So Efforts Solution",
       img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735290531/Untitled_design_2_rjmigk.png",
-      link:'https://www.soefforts.com/'
+      link:'https://www.'
     },
    
   ];
