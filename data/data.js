@@ -51,7 +51,7 @@ export const PROJECT_DATA = [
     id: 2,
     title: "Sommet Infra Projects PVT LID",
     img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735360123/sommet_o29ule.png",
-    link: 'https://www.eclatengineering.com/'
+    link: '/'
   },
   {
     id: 3,
