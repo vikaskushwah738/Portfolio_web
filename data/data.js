@@ -40,6 +40,12 @@
   export default TAB_DATA ;
 
  export const PROJECT_DATA = [
+  {
+    id: 4,
+    title: "Eclat Engineering Consultants",
+    img: "https://res.cloudinary.com/dfbm8in4c/image/upload/v1735360120/eclat_fququs.png",
+    link:'https://www.eclatengineering.com/'
+  },
     {
       id: 1,
       title: "Eclat Engineering Consultants",
