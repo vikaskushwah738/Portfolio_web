@@ -7,7 +7,7 @@ const HeroSection = () => {
         <section className='py-16 lg:px-16 md:px-8 px-5 mt-7'>
             <div className='container mx-auto px-4 lg:px-0'>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
-                    <div className='col-span-7 flex flex-col justify-center lg:order-1 order-2'>
+                    <div className='lg:col-span-7 flex flex-col justify-center lg:order-1 order-2'>
                         <h1 className='text-white text-3xl lg:text-6xl sm:text-5xl font-extralight'>
                             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-600 font-medium'>
                                 Hello I&apos;m {" "}
@@ -31,8 +31,8 @@ const HeroSection = () => {
                             </button> 
                         </div>
                     </div>
-                    <div className='col-span-5 flex justify-center items-center lg:order-2 order-1'>
-                        <div className='relative flex justify-center items-center rounded-full shadow-lg shadow-red-500/50 bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]'>
+                    <div className='lg:col-span-5 flex justify-center items-center lg:order-2 order-1 lg:py-0 py-6 lg:mt-0 mt-4'>
+                        <div className='relative flex justify-center items-center rounded-full shadow-lg shadow-red-500/50 bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] '>
                             <Image
                                 src='/me.png'
                                 alt='developer images'

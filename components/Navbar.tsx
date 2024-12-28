@@ -31,7 +31,7 @@ const Navbar = () => {
     return (
         <nav className='bg-opacity-100 fixed top-0 right-0 left-0 z-10'>
             <div className='flex flex-wrap w-full items-center bg-[#121212]
-      justify-between mx-auto h-14 md:px-12 px-5 cursor-pointer'>
+      justify-between mx-auto h-16 md:px-12 px-5 cursor-pointer'>
                 <Link href={"/"}
                     className='text-lg md:text-xl text-white font-semibold '>
                     <i>Vikas</i>
