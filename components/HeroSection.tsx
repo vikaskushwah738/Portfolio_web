@@ -38,7 +38,7 @@ const HeroSection = () => {
                                 alt='developer images'
                                 layout='responsive'
                                 objectFit='cover'
-                                className='rounded-full'
+                                className='rounded-full absolute'
                                 width={50}
                                 height={50}
                             />
