@@ -12,7 +12,7 @@ interface projectCard {
 const ProjectCard = ({ img, title, link }: projectCard) => {
   return (
     <>
-      <div className='w-[520px] border-2 relative border-purple-500 rounded-xl group bg-[#181818] '>
+      <div className='lg:w-[520px] md:w-[480px] sm:w-[300px] w-[280px] border-2 relative border-purple-500 rounded-xl group bg-[#181818] '>
         <div className='h-52 w-full md:h-56 rounded-t-xl relative group'
           style={{ background: `url(${img})`, backgroundSize: "cover" }}>
            <div className='pt-10 items-center justify-center overlay gap-4 absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500'>
