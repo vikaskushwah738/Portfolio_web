@@ -5,7 +5,7 @@ export async function POST(req: Request){
     try{
         const {name, email , subject , message}= await req.json();
         if(!name || !email || !subject || !message){
-            return NextResponse.json({error : 'email and name is mondory for submit form'},
+            return NextResponse.json({error : 'email and name is mondory for submit form '},
                 {status : 400}
             )
         }
