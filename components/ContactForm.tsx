@@ -1,8 +1,28 @@
-
+"use client"
+import { useState } from "react"
 
 export const ContactForm = () => {
+    const [name, setName]=useState();
+    const [email, setEmail]=useState();
+    const [subject, setSubject]=useState();
+    const [message, setMessage]=useState();
   return (
     <form className='flex flex-col'>
+        <div className='mb-6'>
+                        <label
+                            htmlFor='fname'
+                            className='mb-2 text-white block text-sm font-medium'>
+                            Name
+                        </label>
+                        <input
+                            type="text"
+                            id='fname'
+                            name='fname'
+                            required
+                            placeholder='Enter your name'
+                            className='bg-[#18191E] broder broder-[#33353F] rounded-md placeholder-[#9CA2A9] text-gray-100 text-sm block p-2.5 w-full md:w-3/4  '
+                        />
+                    </div>
                     <div className='mb-6'>
                         <label
                             htmlFor='email'
