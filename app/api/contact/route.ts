@@ -9,6 +9,7 @@ export async function POST(req: Request){
                 {status : 400}
             )
         }
+           // Store data in the database
         const response= await prisma.clientData.create({
             data:{
                 name, 
