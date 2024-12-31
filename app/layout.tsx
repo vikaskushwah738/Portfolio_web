@@ -42,7 +42,7 @@ export default function RootLayout({
               </Link>
             </button>
           </div> 
-          <Toaster />
+          <Toaster/>
         </body>
         
     </html>
