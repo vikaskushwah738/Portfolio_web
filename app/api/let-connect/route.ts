@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     // Store data in the database
     const response = await prisma.clientData.create({
       data: {
-        name,
+        name,  
         email,
         phone,
         message,

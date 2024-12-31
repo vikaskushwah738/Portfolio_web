@@ -7,8 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-model clientData {
+model ClientData {
   id        String @id @default(auto()) @map("_id") @db.ObjectId
   name      String
   email     String
