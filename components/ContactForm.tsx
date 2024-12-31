@@ -77,8 +77,8 @@ export const ContactForm = () => {
                 <PhoneInput
                     defaultCountry="in"
                     value={phoneNumber}
-                    inputStyle={{ backgroundColor: "#18191E", border: "none", fontSize: "16px", paddingLeft: "6px" }}
-                    onChange={(phone) => setPhoneNumber(phone)}
+                    inputStyle={{ backgroundColor: "#18191E", border: "none", fontSize: "15px", paddingLeft: "6px", color:"#f8f8ff " }}
+                    onChange={(phoneNumber) => setPhoneNumber(phoneNumber)}
                     placeholder="Phone Number"
                     className=" w-full md:w-3/4 rounded-md focus:outline-none bg-[#18191E] text-gray-100 "
                 />
@@ -101,7 +101,7 @@ export const ContactForm = () => {
             <button
                 type='submit'
                 className='bg-purple-500 rounded-lg md:mx-28  mx-auto hover:bg-purple-600 text-white font-medium py-2 w-1/3 mt-6'
-                >Submit</button>
+            >Submit</button>
         </form>
     )
 }
