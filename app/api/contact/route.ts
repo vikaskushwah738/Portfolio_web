@@ -13,15 +13,6 @@ export async function POST(req: Request) {
       );
     }
 
-    // Email format validation (basic regex)
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      return NextResponse.json(
-        { error: "Please enter a valid email address." },
-        { status: 400 }
-      );
-    }
-
     // Store data in the database
     const response = await prisma.clientData.create({
       data: {
