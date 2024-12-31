@@ -30,7 +30,8 @@ export async function POST(req: Request) {
       { error: "Something went wrong, please try again later." },
       { status: 500 }
     );
-  } finally {
-    await prisma.$disconnect();
-  }
+  } 
+  // finally {
+  //   await prisma.$disconnect();
+  // }
 }
