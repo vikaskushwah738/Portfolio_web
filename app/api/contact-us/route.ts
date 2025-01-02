@@ -1,7 +1,7 @@
 import { prisma } from "@/prisma/prisma";
 import { NextResponse } from "next/server";
 
-export async function POST(req: Request) {
+export async function POST(req :any) {
   try {
     const { name, email, phone, message } = await req.json();
 
@@ -18,7 +18,7 @@ export async function POST(req: Request) {
         email, 
         phone, 
         message 
-    },
+  },
     });
 
     console.log("Customer data saved successfully", name);
