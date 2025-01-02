@@ -6,17 +6,17 @@ import "react-international-phone/style.css";
 export const ContactForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [phoneNumber, setPhoneNumber] = useState('');
+    const [phone, setPhoneNumber] = useState('');
     const [message, setMessage] = useState('');
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         const toastId = toast.loading("Please wait...");
         try {
-            const res = await fetch(`https://vikas-me.vercel.app/api/contact`, {
+            const res = await fetch(`https://akash-kushwah.vercel.app/api/contact-us`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ name, phoneNumber, email, message }),
+                body: JSON.stringify({ name, phone, email, message }),
             });
 
             if (res.ok) {
@@ -76,7 +76,7 @@ export const ContactForm = () => {
                 </label>
                 <PhoneInput
                     defaultCountry="in"
-                    value={phoneNumber}
+                    value={phone}
                     inputStyle={{ backgroundColor: "#18191E", border: "none", fontSize: "15px", paddingLeft: "6px", color:"#f8f8ff " }}
                     onChange={(phoneNumber) => setPhoneNumber(phoneNumber)}
                     placeholder="Phone Number"
